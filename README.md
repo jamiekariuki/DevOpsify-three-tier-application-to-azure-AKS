@@ -25,7 +25,7 @@ docker run -d -e POSTGRES_HOST_AUTH_METHOD=trust -e POSTGRES_USER=backend -e POS
 
 The frontend is made with the ReactJS version 18.0.4 and Node v20.2.0.
 
-To run the frontend, run the following command: yes
+To run the frontend, run the following command: yes nop
 
 ```
 cd frontend
