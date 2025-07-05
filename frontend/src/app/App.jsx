@@ -10,7 +10,7 @@ import DeleteContentBox from '../content-box/DeleteContentBox';
 export function Home() {
   const [records, setRecords] = React.useState([]);
 
-  const API_BASE_URL = "http://20.55.29.150:32091";
+  const API_BASE_URL = "http://backend:8080";
 
   React.useEffect(() => {
     fetch(`${API_BASE_URL}/gym/records`, {
