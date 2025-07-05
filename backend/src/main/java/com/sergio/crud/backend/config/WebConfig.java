@@ -17,7 +17,7 @@ public class WebConfig {
                         .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS") // ✅ includes OPTIONS
                         .allowedOrigins("http://20.55.29.150:32092")
                         .allowedHeaders("*") // ✅ allow all headers (like Content-Type)
-                        .allowCredentials(true); // optional if you use cookies or authj
+                        .allowCredentials(true); // optional if you use cookies or auth
             }
         };
     }
