@@ -30,4 +30,4 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-  type: ClusterIP # use LoadBalancer if you want external access directly
+  type: nodePort
