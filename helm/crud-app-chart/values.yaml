@@ -6,4 +6,4 @@ frontend:
 backend:
   image:
     repository: jamiekariuki/crud-app
-    tag: "backend-16087600391"
+    tag: "backend-16087640899"
