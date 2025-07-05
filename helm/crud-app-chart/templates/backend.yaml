@@ -61,4 +61,5 @@ spec:
   ports:
   - port: 8080
     targetPort: 8080
-  type: ClusterIP
+    nodePort: 32091 # optional, or let Kubernetes assign
+  type: NodePort

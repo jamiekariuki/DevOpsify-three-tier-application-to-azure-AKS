@@ -6,4 +6,4 @@ data:
   DB_HOST: postgres
   DB_PORT: "5432"
   DB_NAME: backenddb
-  FRONTEND_ORIGIN: http://frontend:80
+  FRONTEND_ORIGIN: http://20.55.29.150:32092
