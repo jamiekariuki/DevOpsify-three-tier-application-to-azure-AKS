@@ -8,7 +8,7 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      ddl-auto: update # better than create-drop for persistenceh
+      ddl-auto: update # better than create-drop for persistencehj
 
 cors:
   allowed-origin: ${FRONTEND_ORIGIN}
