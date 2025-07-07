@@ -43,9 +43,7 @@ Each tier is containerized with Docker and deployed into a Kubernetes environmen
 
 ## 📐 Pipeline architecture
 
-> Include your architecture diagram image here  
-> Example:  
-`![Pipeline Architecture](./architecture.png)`
+![Pipeline Architecture](./architecture.png)
 
 The architecture follows a GitOps model where the Git repository is the source of truth. Any change to manifests, configurations, or image tags triggers automatic deployment via Argo CD.
 
