@@ -1,0 +1,5 @@
+rgname                  = "crud-rg"
+location                = "canadacentral"
+service_principal_name = "crud-aks-sp"
+keyvault_name           = "crud-kv"
+SUB_ID                  = "b61561ed-2777-4768-9d48-a9ef23401359"
